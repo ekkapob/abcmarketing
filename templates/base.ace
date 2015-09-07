@@ -1,0 +1,15 @@
+= doctype html
+html lang=en
+  head
+    meta charset=utf-8
+    meta name=viewport content="width=device-width, initial-scale-1"
+    // link rel=stylesheet href=https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css
+    link rel=stylesheet href=css/styles.css
+    title Hooray!
+  body
+    = include templates/_header
+    
+    = yield main
+
+    script src=https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+    script src=https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js

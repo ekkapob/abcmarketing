@@ -1,0 +1,34 @@
+= content main
+  .hero-img
+    div.quote
+      p.first-text GET THE PERFECT JOBS
+      p.text The only way to do great work is to <span>LOVE</span> what you do
+      p.author Steve Jobs
+    div.buttons
+      button.btn.clear-btn Find JOBS
+      button.btn.clear-btn Find PROFESSIONALS
+  .content
+    .jobs-container.wrap
+      {{ range . }}
+       .job
+        .tag
+          ul
+            li  
+              a href=# #javascript
+            li
+              a href=# #web
+            li
+              a href=# #programmer
+        div.icon
+          img src="img/js.png"
+        .header 
+          a href=# Javascript Developer needed!
+        p.details Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        .author
+          .profile
+            p.name 
+              a href=# Jack The Boss
+            p.date 20/12/15
+          a href=#
+            img src="img/boss.png"
+      {{ end }}

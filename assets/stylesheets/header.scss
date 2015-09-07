@@ -1,0 +1,65 @@
+@import 'base';
+
+#hooray-nav-logo {
+  font-family: 'quicksandbold';
+  font-size: 2.8rem;
+  color: $main-yellow;
+  span {
+    color: $main-black;
+  }
+}
+
+.nav-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $main-black;
+}
+
+nav {
+  background-color: white;
+  border-bottom: 2px solid $dark-grey;
+  height: 70px;
+  font-family: 'quicksandregular';
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      &:hover {
+        .menu-indicator {
+          opacity: 1;
+          transition: opacity 0.7s;
+        }
+      }
+      .menu-indicator {
+        opacity: 0;
+        width: 8px;
+        height: 8px;
+        background-color: #C5C5C5;
+        border-radius: 4px;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+    .main-logo {
+      margin-right: 30px;
+    }
+    .nav-menu {
+      margin: 0 30px;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+#nav-action {
+  button {
+    font-family: 'quicksandregular';
+    margin-left: 10px;
+    strong {
+      font-family: 'quicksandbold';
+    }
+  }
+}

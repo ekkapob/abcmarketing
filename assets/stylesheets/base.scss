@@ -1,0 +1,75 @@
+$main-yellow: #FFDC7F;
+$main-black: #4D4D4D;
+$site-background-grey: #F6F6F6;
+$dark-grey: #EEEEEE;
+$text-white: #FBFBFB;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: $main-black;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: $site-background-grey;
+  color: $main-black;
+}
+
+.content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 1.2rem;
+  border: 0;
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: $main-black;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+
+.clear-btn {
+  background-color: transparent;
+  border: 2px solid $main-yellow;
+  color: white;
+  &:hover {
+    color: $main-yellow;
+  }
+}
+
+.hilight-btn {
+  background-color: $main-yellow;
+  border-bottom: 2px solid #E6BB4A;
+  &:hover {
+    color: white;
+  }
+}
+
+.default-btn {
+  background-color: white;
+  border: 2px solid $main-yellow;
+  &:hover {
+    color: $main-yellow;
+  }
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
