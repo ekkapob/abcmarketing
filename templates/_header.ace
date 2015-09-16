@@ -2,7 +2,7 @@ nav
   .content.nav-content
     ul
       li.main-logo
-        a#hooray-nav-logo href=# hooray
+        a#hooray-nav-logo href=/ hooray
           span job
       li.nav-menu
         a href=# JOBS
@@ -15,8 +15,6 @@ nav
         .menu-indicator
 
     #nav-action
-      button.btn.hilight-btn POST
+      a.btn.hilight-btn POST
         strong &nbsp;JOBS&nbsp;
-        // span /
-        // strong &nbsp;PROFILES
-      button.btn.default-btn SIGN IN / LOG IN
+      a.btn.default-btn href="/signup" SIGN UP / LOG IN

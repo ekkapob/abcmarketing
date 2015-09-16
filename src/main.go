@@ -13,7 +13,12 @@ func main() {
 	addr := fmt.Sprintf("localhost:%d", *port)
 
 	r := mux.NewRouter()
+
+	// routes
 	r.HandleFunc("/", homeHandler)
+	r.HandleFunc("/signup", signupHandler)
+
+	// static resources
 	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./public")))
 	http.Handle("/", r)
 

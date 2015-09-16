@@ -1,0 +1,4 @@
+= content main
+  .content
+    form
+      input type="text"

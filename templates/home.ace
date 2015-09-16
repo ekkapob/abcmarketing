@@ -5,15 +5,15 @@
       p.text The only way to do great work is to <span>LOVE</span> what you do
       p.author Steve Jobs
     div.buttons
-      button.btn.clear-btn Find JOBS
-      button.btn.clear-btn Find PROFESSIONALS
+      a.btn.clear-btn Find JOBS
+      a.btn.clear-btn Find PROFESSIONALS
   .content
     .jobs-container.wrap
       {{ range . }}
        .job
         .tag
           ul
-            li  
+            li
               a href=# #javascript
             li
               a href=# #web
@@ -21,12 +21,12 @@
               a href=# #programmer
         div.icon
           img src="img/js.png"
-        .header 
+        .header
           a href=# Javascript Developer needed!
         p.details Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         .author
           .profile
-            p.name 
+            p.name
               a href=# Jack The Boss
             p.date 20/12/15
           a href=#
