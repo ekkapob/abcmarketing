@@ -1,0 +1,149 @@
+.ourservices {
+  .header {
+    p {
+      font-family: 'quicksand-bold';
+      font-size: 3.2rem;
+      display: inline;
+      background-color: #FFF;
+      padding: 0 12px;
+    }
+    hr {
+      border: 0;
+      border-top: 2px solid $light-grey;
+    }
+    div {
+      text-align: center;
+      margin-top: -23px;
+    }
+  }
+  .half-column {
+    .img {
+      p {
+        font-size: 1.8rem;
+        position: absolute;
+        bottom: 0;
+        color: $white;
+        padding: 15px;
+        text-align: left;
+      }
+    }
+    .title {
+      font-family: 'quicksand-bold';
+      font-size: 2.2rem;
+      margin: 45px 0 30px;
+    }
+  }
+  .img {
+    height: 325px;
+    background-size: contain;
+    position: relative;
+  }
+  .online-marketing-img {
+    background: url("/img/online-marketing.jpg") no-repeat center 100%;
+  }
+  .website-app-development-img {
+    background: url("/img/website-app-development.jpg") no-repeat center 100%;
+  }
+  .services {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.service-details {
+  background-color: $black-bg;
+  margin: 60px 0;
+  .container {
+    position: relative;
+  }
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 25px solid #FFF;
+    border-right: 25px solid #FFF;
+    border-bottom: 30px solid #3D3D3D;
+    position: absolute;
+    top: -30px;
+    left: 220px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    li {
+      display: inline-block;
+    }
+  }
+  .item {
+    width: 230px;
+    .badge {
+      width: 155px;
+      height: 155px;
+      border-radius: 80px;
+      border: 3px solid #F6D538;
+      background-color: white;
+      margin: 12px auto;
+      > .title {
+        font-family: 'quicksand-bold';
+        font-size: 2.2rem;
+        color: $main-yellow;
+        text-align: center;
+        margin-top: 30px;
+      }
+      &.analytics {
+        svg {
+          width: 55px;
+          margin-top: 10px;
+        }
+      }
+      &.adwords {
+        svg {
+          width: 60px;
+          margin-top: 10px;
+        }
+      }
+      &.socials {
+        .icon {
+          background: url("/img/icons/social.jpg") no-repeat;
+          width: 80px;
+          height: 65px;
+          margin: 5px auto;
+        }
+      }
+    }
+    .icon {
+      svg {
+        width: 72px;
+        path {
+          fill: $light-black;
+        }
+      }
+    }
+    section {
+      text-align: center;
+      .title {
+       font-size: 1.6rem;
+       color: $main-yellow;
+      }
+      p {
+        font-size: 1.4rem;
+        margin-top: 10px;
+        color: $white;
+      }
+    }
+  }
+  .more-details {
+    text-align: center;
+    font-family: 'quicksand-bold';
+    font-size: 1.7rem;
+    padding: 30px 0 20px;
+    display: block;
+    a {
+      color: $light-black;
+      &:hover {
+        color: $light-grey;
+      }
+    }
+  }
+}

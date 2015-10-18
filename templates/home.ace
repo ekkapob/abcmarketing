@@ -1,34 +1,12 @@
 = content main
-  .hero-img
-    div.quote
-      p.first-text GET THE PERFECT JOBS
-      p.text The only way to do great work is to <span>LOVE</span> what you do
-      p.author Steve Jobs
-    div.buttons
-      a.btn.clear-btn Find JOBS
-      a.btn.clear-btn Find PROFESSIONALS
-  .content
-    .jobs-container.wrap
-      {{ range . }}
-       .job
-        .tag
-          ul
-            li
-              a href=# #javascript
-            li
-              a href=# #web
-            li
-              a href=# #programmer
-        div.icon
-          img src="img/js.png"
-        .header
-          a href=# Javascript Developer needed!
-        p.details Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        .author
-          .profile
-            p.name
-              a href=# Jack The Boss
-            p.date 20/12/15
-          a href=#
-            img src="img/boss.png"
-      {{ end }}
+  .main-header-bg
+    #main-site-name
+      div.name ABC
+      div.about Online Marketing Consultant
+  .container.first-message
+    p.
+      If you want to <span class="yellow-bold">boost sales</span>, getting noticed by <span class="yellow-bold">more customers</span>, <span class="yellow-bold">rank higher</span> in the search engines, <span class="bold">HIRE</span> us for professional services and affordable deals.
+    div.join-now-btn-container
+      a.yellow-button href=# START NOW
+  = include templates/_ourservices
+  // img src="img/main-header-bg.png"

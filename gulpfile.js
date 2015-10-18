@@ -32,4 +32,3 @@ gulp.task('sass', function(){
             .pipe(sourcemaps.write())
             .pipe(gulp.dest('./public/css'));
 });
-
