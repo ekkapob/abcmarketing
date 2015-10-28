@@ -1,0 +1,19 @@
+.container.qualications
+  div.qualication
+    div.image
+      img src=img/google-certified.png
+    div.information
+      p.title Google Certified
+      p.info We are partnership with Google. Our consultants are well trained with Google trainers. Google Adwords, , Google Analytics, SEO
+  div.qualication
+    div.image
+      img src=img/affordable.png
+    div.information
+      p.title Affordable Deals
+      p.info As a business companion, consultant and worker, we do transparent and professional work. There is no obscure charge. Our business consultants will walk you through our marketing processes in details how we do our job and adjust our services to most match your needs.
+  div.qualication
+    div.image
+      img src=img/adjustable.png
+    div.information
+      p.title Adjustable Prices & Services
+      p.info To fit your business needs, adjustable services are required. We handpick services only needed for your business.

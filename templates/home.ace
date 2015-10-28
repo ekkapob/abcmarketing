@@ -9,4 +9,5 @@
     div.join-now-btn-container
       a.yellow-button href=# START NOW
   = include templates/_ourservices
+  = include templates/_qualifications
   // img src="img/main-header-bg.png"

@@ -56,6 +56,12 @@
   .container {
     position: relative;
   }
+  .marketing {
+    display: flex;
+  }
+  .development {
+    display: none;
+  }
   .arrow-up {
     width: 0;
     height: 0;
@@ -63,8 +69,14 @@
     border-right: 25px solid #FFF;
     border-bottom: 30px solid #3D3D3D;
     position: absolute;
-    top: -30px;
-    left: 220px;
+    &.marketing-arrow {
+      top: -30px;
+      left: 220px;
+    }
+    &.development-arrow {
+      top: -30px;
+      right: 220px;
+    }
   }
   ul {
     list-style: none;
@@ -109,6 +121,12 @@
           width: 80px;
           height: 65px;
           margin: 5px auto;
+        }
+      }
+      &.website {
+        svg {
+          width: 60px;
+          margin-top: 10px;
         }
       }
     }
