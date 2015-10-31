@@ -10,4 +10,5 @@
       a.yellow-button href=# START NOW
   = include templates/_ourservices
   = include templates/_qualifications
+  = include templates/_contact
   // img src="img/main-header-bg.png"

@@ -1,12 +1,5 @@
 @import 'fonts';
-
-$main-black: #313131;
-$main-yellow: #F6D538;
-$white: #FDFDFD;
-
-$black-bg: #3D3D3D;
-$light-black: #6F6F6F;
-$light-grey: #E5E5E5;
+@import 'baseColors';
 
 * {
   margin: 0;
@@ -51,56 +44,3 @@ a.yellow-button {
   display: inline-block;
   text-align: center;
 }
-
-//
-// body {
-//   font-size: 1.4rem;
-//   background-color: $site-background-grey;
-//   color: $main-black;
-// }
-//
-// .content {
-//   max-width: 980px;
-//   margin: 0 auto;
-// }
-//
-// .btn {
-//   font-size: 1.2rem;
-//   border: 0;
-//   padding: 8px 10px;
-//   border-radius: 4px;
-//   color: $main-black;
-//   cursor: pointer;
-//   &:focus {
-//     outline: none;
-//   }
-// }
-//
-// .clear-btn {
-//   background-color: transparent;
-//   border: 2px solid $main-yellow;
-//   color: white;
-//   &:hover {
-//     color: $main-yellow;
-//   }
-// }
-//
-// .hilight-btn {
-//   background-color: $main-yellow;
-//   border-bottom: 2px solid #E6BB4A;
-//   &:hover {
-//     color: white;
-//   }
-// }
-//
-// .default-btn {
-//   background-color: white;
-//   border: 2px solid $main-yellow;
-//   &:hover {
-//     color: $main-yellow;
-//   }
-// }
-//
-// .wrap {
-//   flex-wrap: wrap;
-// }

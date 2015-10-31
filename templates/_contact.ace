@@ -1,0 +1,22 @@
+.container.contact
+  .header
+    hr
+    div
+      p Call Us
+  .logo
+    img src="img/phone.png"
+  p ABC Marketing
+  p.phone +(66)80-441-4062
+  .email
+    img src="img/email.png"
+    div
+      a href="mailto:aacmarketing@gmail.com" aacmarketing@gmail.com
+  div.social
+    div.content
+      span
+        img src="img/facebook.png"
+      a.info href=https://www.facebook.com/abcmarketing abcmarketing
+    div.content
+      span
+        img src="img/line.png"
+      span.info abcmarketing

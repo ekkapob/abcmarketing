@@ -1,0 +1,70 @@
+@import 'baseColors';
+
+.contact {
+  font-family: 'quicksandregular';
+  .header {
+    margin-bottom: 50px;
+    p {
+      font-family: 'quicksand-bold';
+      font-size: 3.2rem;
+      display: inline;
+      background-color: #FFF;
+      padding: 0 12px;
+    }
+    hr {
+      border: 0;
+      border-top: 2px solid $light-grey;
+    }
+    div {
+      text-align: center;
+      margin-top: -23px;
+    }
+  }
+  p {
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+    img {
+      width: 150px;
+    }
+  }
+  .email {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    img {
+      width: 30px;
+      margin-right: 10px;
+    }
+    a {
+      font-size: 2rem;
+      color: $blue;
+    }
+  }
+  .phone {
+    font-family: 'quicksandbold';
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    .content {
+      display: flex;
+      align-items: center;
+      margin: 0 10px;
+      img {
+        width: 30px;
+        margin-right: 10px;
+      }
+      .info {
+        color: $light-black;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
