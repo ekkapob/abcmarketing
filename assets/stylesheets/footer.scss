@@ -1,0 +1,10 @@
+.footer {
+  background-color: $black-bg;
+  font-family: 'quicksandregular';
+  .company-name {
+    font-size: 1.5rem;
+    color: $white;
+    text-align: center;
+    padding: 10px 0;
+  }
+}

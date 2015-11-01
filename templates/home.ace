@@ -11,4 +11,5 @@
   = include templates/_ourservices
   = include templates/_qualifications
   = include templates/_contact
+  = include templates/_footer
   // img src="img/main-header-bg.png"
