@@ -1,0 +1,19 @@
+{
+	"ImportPath": "github.com/ekkapob/abcmarketing/app",
+	"GoVersion": "go1.4.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "f15e0c49460fd49eebe2bcc8486b05d1bef68d3a"
+		},
+		{
+			"ImportPath": "github.com/yosssi/ace",
+			"Comment": "v0.0.4-41-g78e48a2",
+			"Rev": "78e48a2f0ac5fb5a642585f96b03a5f47f7775f5"
+		}
+	]
+}
