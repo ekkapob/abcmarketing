@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/ekkapob/abcmarketing/app",
+	"ImportPath": "github.com/ekkapob/abcmarketing",
 	"GoVersion": "go1.4.2",
 	"Deps": [
 		{
