@@ -1,17 +1,18 @@
 package main
 
 import (
-	"flag"
-	"fmt"
+	// "flag"
+	// "fmt"
+	"github.com/gorilla/mux"
 	"log"
 	"net/http"
-
-	"github.com/gorilla/mux"
+	"os"
 )
 
 func main() {
-	port := flag.Int("port", 8080, "Server port")
-	addr := fmt.Sprintf("localhost:%d", *port)
+	// port := flag.Int("port", 8080, "Server port")
+	// addr := fmt.Sprintf("localhost:%d", *port)
+	addr := os.Getenv("PORT")
 
 	r := mux.NewRouter()
 
@@ -24,6 +25,6 @@ func main() {
 	http.Handle("/", r)
 
 	log.Println("Server is running on", addr)
-	err := http.ListenAndServe(addr, nil)
+	err := http.ListenAndServe(":"+addr, nil)
 	log.Println(err.Error())
 }
